@@ -1,5 +1,5 @@
 #!/bin/sh
-VER=`svnversion .`
+VER=55
 if [ "x$VER" != x -a "$VER" != exported ]
 then
   echo "#define XAVS_VERSION \" svn-$VER\"" >> config.h
